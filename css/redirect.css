@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-color: #180d13;
+  --white: #ffffff;
+  --red-color: #ff2424;
+  --dark-red-color: #e81313;
+
+  --font-primary: "PT Sans", sans-serif;
+  --font-secondary: "Yanone Kaffeesatz", sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--white);
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.container p a {
+  text-decoration: none;
+  color: var(--red-color);
+}
+
+.container p a:hover {
+  text-decoration: underline;
+}
