@@ -615,11 +615,13 @@ footer {
 
   nav.desktop-navbar {
     margin:20px 30px;
+  }
 
-      section {
-        margin: 20px 20px;
-    }
-.discount-section .discount_text h2 {
+  section {
+    margin: 20px 20px;
+  }
+  
+  .discount-section .discount_text h2 {
     font-size: 15px;
   }
 
