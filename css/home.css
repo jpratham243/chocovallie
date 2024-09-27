@@ -611,56 +611,23 @@ footer {
   padding: 20px 0px;
 }
 
-@media (max-width:479px){
 
+
+/* Mobile Devices */
+@media (max-width: 480px) {
   nav.desktop-navbar {
-    margin:20px 30px;
+    margin: 20px 30px;
   }
 
   section {
     margin: 20px 20px;
   }
-  
-  .discount-section .discount_text h2 {
-    font-size: 15px;
-  }
-
-  .discount-section .discount_text h4 {
-    font-size: 10px;
-  }
-
-  .section-title{
-    font-size:2em;
-  }
-
-      .subscibe-section .subscribe-text h2 {
-        font-size: 15px;
-        margin-bottom: 10px;
-    }
-      .subscibe-section .subscribe-text form input {
-        height: 20px;
-        padding:10px;
-        font-size: 10px;
-        margin-bottom: 5px;
-    }
-
-      .subscibe-section .subscribe-text form button {
-        font-size: 10px;
-    }
-}
-
-/* Mobile Devices */
-@media (max-width: 480px) {
-
-  nav.desktop-navbar {
-    margin:20px 30px;
-  }
-
-      section {
-        margin: 20px 20px;
-    }
   .hero-text {
     left: 50px;
+  }
+
+  .section-title {
+    font-size: 2em;
   }
 
   .desktop-navbar .navbar-left,
@@ -669,11 +636,11 @@ footer {
   }
 
   .discount-section .discount_text h2 {
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .discount-section .discount_text h4 {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   .our-story {
@@ -719,20 +686,21 @@ footer {
   }
 
   .subscibe-section .subscribe-text h2 {
-    font-size: 20px;
+    font-size: 15px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .subscibe-section .subscribe-text form input {
-    height: 40px;
-    font-size: 12px;
-    margin-bottom: 10px;
+    height: 20px;
+    font-size: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
   }
 
   .subscibe-section .subscribe-text form button {
     padding: 5px 20px;
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .testimonial-section .cust-testimonial {
